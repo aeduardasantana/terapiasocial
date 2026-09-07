@@ -173,7 +173,16 @@
         const checkout = window.open(CHECKOUT_URL, 'agendaSocialCheckout', `popup=yes,width=${width},height=${height},left=${left},top=${top},scrollbars=yes,resizable=yes`)
         if (!checkout) window.location.href = CHECKOUT_URL
         else checkout.focus()
-      })
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X7V4302VC7">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-X7V4302VC7');
+</script>     })
     })
   </script>
 </body>
